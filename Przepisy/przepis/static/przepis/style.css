@@ -1,0 +1,109 @@
+body
+{
+	background-color: 	#FFFFE0;
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-size: 20px;
+	margin: 0 !important;
+}
+.wraper
+{
+	width: 100%;
+}
+.header
+{
+	padding: 40px 0;
+	width: 100%
+}
+
+.logo
+{
+	width: 350px;
+	font-size: 48px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 900;
+}
+.nav
+{
+	width: 100%;
+	padding: 10px 0;
+	background-color: #9ACD32;
+	color: white;
+	text-align: center;
+	border-top: 1px solid #751b1b;
+	border-bottom: 1px solid #751b1b;
+	
+}
+.content
+{
+	margin-left:auto;
+	margin-right:auto; 
+	text-align: justify;
+}
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	
+}
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	
+}
+ol > li
+{
+	float:left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #751b1b;
+
+}
+ol >li:first-child
+{
+	border-left: 1px dashed #751b1b;
+}
+.category
+{
+	background-image: static/image/danie.jpg;
+	margin:20px;
+	padding: 5px;
+	width: 300px;
+	height :300px;
+	padding: 10px;
+	float:left;
+}
+.dish
+{
+
+    background-color: #EEE8AA;
+    padding: 15px;
+    margin: 20px 10px 10px 20px;
+
+}
+.desc{
+    height:130px;
+}
+.logo
+{
+    color:black;
+    text-decoration;
+}
+.text
+{
+    margin-top: 50px;
+    background-color: white;
+    margin-left:auto;
+    margin-right:auto;
+    width: 500px;
+    color: #123123;
+}
+
+

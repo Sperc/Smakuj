@@ -1,0 +1,30 @@
+<!-- Loads the path to your static files !-->
+{% extends 'przepis/base.html' %}
+{% block body %}
+        {%if all_category %}
+            {% for category in all_category %}
+                <div class="content">
+				<a href="/przepis/{{category.id}}">
+						<div class ="category">
+                            <h3 style="color: black">{{category.category_name}}</h3>
+                            <img src ="{{category.category_logo.url}}" height="300px" width="300px" />
+
+						</div>
+				</a>
+				<div style="display: block"></div>
+			    </div>
+            {% endfor %}
+        {% else %}
+            <h3>
+                You don't have any categories
+            </h3>
+
+        {%endif%}
+
+
+{% endblock %}
+
+
+
+
+

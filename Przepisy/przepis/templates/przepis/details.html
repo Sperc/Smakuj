@@ -1,0 +1,21 @@
+{% extends 'przepis/base.html' %}
+{% block body %}
+
+{% for dish in category.dish_set.all %}
+        <a href = "{%url 'receipe' category.id dish.id %}">
+            <div class="dish">
+
+                <img src ="{{ dish.dish_logo.url }}" height="150px" width="150px" style="float: left" />
+                <div style ="display: block"></div>
+
+                <div class="desc" style="margin-left: 20px">
+                    <h3 style="margin-left: 20px;">{{dish.dish_title}}</h3>
+                </div>
+                <div style="display: block"></div>
+
+            </div>
+        </a>
+{% endfor %}
+
+
+{% endblock %}

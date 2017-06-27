@@ -1,0 +1,15 @@
+{% extends 'przepis/base.html' %}
+{% block body %}
+
+    <img src ="{{ dish.dish_logo.url }}" height="200px" width="200px" style="" />
+    <h1>
+        Kategoria: {{category}}
+    </h1>
+    <h1>
+        Nazwa: {{dish}}
+    </h1>
+    <div class="text">
+        {{dish.dish_receipe}}
+    </div>
+
+{% endblock %}
